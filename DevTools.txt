@@ -1,0 +1,130 @@
+Видео-запись выполнения задания находится по ссылке
+https://drive.google.com/file/d/189y2l9WPq40-JsuzXMPZ7HJNOk-fZ33V/view?usp=sharing
+ 
+
+1. Открыть Chrome DevTools
+Заходим на сайт http://itcareer.pythonanywhere.com/ , нажимаем Ctrl+Shift+I
+
+ 2. Зайти в панель Elements.
+
+ 3. Найти инспектором кнопку Submit и выровнять слово Submit по центру
+Ctrl F-> submit-> удаляем "left 30px" 
+
+ 4. Включить режим мобильного деввайса (Device Mode)
+Ctrl+Shift+M
+
+ 5. Выставить Dimensions: Responsive 
+Заходим в гамбургер-меню Dimensions,  выбираем Responsive
+
+ 6. Выбрать Responsive - Mobile
+Заходим в гамбургер-меню Dimensions, выбираем любой девайс, например Iphone 12 Pro
+
+ 7. Продемонстрировать работу дизайна Responsive
+Мышкой стягиваем и растягиваем границы экрана. Верстка изменяется.
+
+ 8. Выставить Dimensions: Adaptive (select device).
+
+ 9. Создать свой девайс.
+Dimensions-> Edit->add custom device-> создаем свой девайс со своими параметрами-> Add
+
+ 10. Выставить Throttling low-end mobile
+Из бургер меню Custom выбираем Low-end mobile
+
+ 11. Обновить страницу
+
+ 12. Перевести в ландшафтные режим.
+Rotate
+
+ 13. Выключить Device Mode
+
+ 14. Открыть панель Console.
+Заходим на сайт https://flostyle.ru/ , открываем Console
+
+ 15. Найти 2 сообщения Error в логах
+
+ 16. Сохранить эти 2 сообщения лога как файл на компьютер.
+Наводим мышь на сообщение об ошибке, жмем правую клавишу мыши-> Save as
+
+ 17. Найти 1 сообщение verbose
+
+ 18. Пролистать логи Warnings, Info, User Messages.
+
+ 19. Открыть вкладку Sources.
+
+ 20. Открыть файл Index
+
+ 21. Открыть вкладку Network
+
+ 22. В урле отправить отправить http://162.55.220.72:5005/object_info_3?age=32&salary=1000&name=name
+ 23. Найти лог request/responce  
+object_info_........
+
+ 24. Открыть вкладку Headers
+
+ 25. Просмотреть General, Response Headers, Request Headers
+
+ 26. Найти и скопировать в новый текстовый файл header - User-Agent.
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36
+
+ 27. Открыть вкладку Preview
+
+ 28. Развернуть все уровни вложенности JSON.
+
+ 29. Открыть вкладку Application.
+
+ 30. Развернуть все Storage в левом столбце.
+
+ 31. Зайти в Cache Storage и Application Cache
+
+ 32. Там везде будет пусто.
+
+ 33. Открыть любой сайт который хотите. (Введите урл сайта в адресную строку и нажмите Enter)
+Открываем сайт http://www.piersib.ru/ 
+
+ 34. Откройте вкладку LightHouse
+
+ 35. Нажмите Generate report
+
+ 36. Установить в браузер бесплатный AdBlocker
+
+ 37. Установить в браузер Json Viewer
+
+ 38. Зайти на сайт https://ksendzov.com (https://ksendzov.com/)
+
+ 39. Сделать и сохранить скриншот видимой части страницы сайта.
+Ctrl+Shift+M -> кебаб-меню-> Capture screeshot
+
+ 40. Сделать и сохранить скриншот всего сайта.
+Ctrl+Shift+M -> кебаб-меню-> Capture full size screeshot
+
+ 41. Изменить локацию GPS. Продемонстрировать на сайте Гугл карт.
+More tools -> Sensors-> выбираем город
+
+ 42. Изменить локацию GPS второй раз. Продемонстрировать на сайте Гугл карт.
+More tools -> Sensors-> выбираем другой город
+
+ 43. Найти интерфейс для изменения User-Agent.
+Заходим на сайт http://www.piersib.ru/ , More tools-> Network conditions
+
+ 44. Подставить другой User-Agent. 
+Снимаем галочку с Use browser default, выбираем другой юзер-агент
+
+ 45. Отправить запрос на http://162.55.220.72:5005/object_info_3?age=32&salary=1000&name=name
+
+ 46. Проверить изменился ли ваш нативный User-Agent на новый, подставленный.
+
+ 47. Создать свой юзер- агент.
+Network conditions-> User agent client hints-> заполняем параметры-> Update
+
+ 48. Повторить пункты 45, 46.
+
+ 49. Найти интерфейс для изменения/добавления параметров Throttling.
+More tools-> Network conditions->Network trottling
+
+ 50. Создать свои параметры плохого соединения и проверить как будет загружаться страница.
+Network trottling-> add-> add custom profile -> называем и вводим параметры скорости
+
+ 51. Найти интерфейс для изменения/добавления параметров Locations.
+More tools-> Sensors-> Add location-> ввыдом название города, долготу, широту и прочие параметры
+
+ 52. Проверить на Google карте как применяются изменения локации.
